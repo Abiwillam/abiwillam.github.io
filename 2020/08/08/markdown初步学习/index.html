@@ -23,7 +23,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="keywords" content="">
-  <title>article title - Hexo</title>
+  <title>markdown初步学习 - Hexo</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 
@@ -61,7 +61,7 @@
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
-       href="/">&nbsp;<strong>Fluid</strong>&nbsp;</a>
+       href="/">&nbsp;<strong>Crchan's Space</strong>&nbsp;</a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -133,18 +133,6 @@
             </li>
           
         
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/links/">
-                <i class="iconfont icon-link-fill"></i>
-                友链
-              </a>
-            </li>
-          
-        
         
           <li class="nav-item" id="search-btn">
             <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
@@ -170,8 +158,8 @@
               
   <div class="mt-3 post-meta">
     <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-    <time datetime="2020-08-05 20:26">
-      2020年8月5日 晚上
+    <time datetime="2020-08-08 21:21">
+      2020年8月8日 晚上
     </time>
   </div>
 
@@ -181,7 +169,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      0 字
+      907 字
     </span>
   
 
@@ -191,7 +179,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      10
        分钟
     </span>
   
@@ -222,12 +210,156 @@
           <div class="post-content mx-auto" id="post">
             
             <article class="markdown-body">
-              
+              <h1 id="1-标题"><a href="#1-标题" class="headerlink" title="1. 标题"></a>1. 标题</h1><p>支持一到六级标题，一个井号（#）算一级<br>eg.   </p>
+<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><hr>
+<h1 id="2-字体"><a href="#2-字体" class="headerlink" title="2. 字体"></a>2. 字体</h1><h3 id="·加粗"><a href="#·加粗" class="headerlink" title="·加粗"></a>·加粗</h3><p>文本用两个星号左右包围<br>eg.<br><strong>加粗</strong></p>
+<h3 id="·斜体"><a href="#·斜体" class="headerlink" title="·斜体"></a>·斜体</h3><p>文本左右用一个星号包围起来<br>eg.<br><em>斜体</em></p>
+<h3 id="·斜体加粗"><a href="#·斜体加粗" class="headerlink" title="·斜体加粗"></a>·斜体加粗</h3><p>文本左右用三个星号包围起来<br>eg.<br>*<em>斜体加粗**</em></p>
+<h3 id="·删除线"><a href="#·删除线" class="headerlink" title="·删除线"></a>·删除线</h3><p>文字左右用两个波浪线包围起来<br>eg.<br><del>删除线</del></p>
+<hr>
+<h1 id="3-引用"><a href="#3-引用" class="headerlink" title="3. 引用"></a>3. 引用</h1><p>在文字前加大于号（&gt;）即可，可嵌套，嵌套上一条的条件是要在上一条的基础上多加一个大于号<br>eg.</p>
+<blockquote>
+<p>这是一条引用内容</p>
+<blockquote>
+<p>这是上一条的嵌套</p>
+<blockquote>
+<p>老俄罗斯套娃🌶</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<h1 id="4-分隔线"><a href="#4-分隔线" class="headerlink" title="4. 分隔线"></a>4. 分隔线</h1><p>三个或三个以上的- ，*都可以<br>eg.</p>
+<ul>
+<li>三个（及以上）-</li>
+</ul>
+<hr>
+<hr>
+<ul>
+<li>三个（及以上）*</li>
+</ul>
+<hr>
+<hr>
+<p>效果相同</p>
+<hr>
+<h1 id="5-图片"><a href="#5-图片" class="headerlink" title="5. 图片"></a>5. 图片</h1><h3 id="语法："><a href="#语法：" class="headerlink" title="语法："></a>语法：</h3><p>![图片alt](图片地址 ‘’图片title’’)</p>
+<p>图片alt就是显示在图片下面的文字，相当于对图片内容的解释。<br>图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加<br>没有例子（暂时）</p>
+<hr>
+<h1 id="6-超链接"><a href="#6-超链接" class="headerlink" title="6. 超链接"></a>6. 超链接</h1><h3 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h3><pre><code class="hljs markdown">[<span class="hljs-string">超链接名</span>](<span class="hljs-link">超链接地址 &quot;超链接title&quot;</span>)
+title可加可不加
+新标签页打开需用html的a标签
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;超链接地址&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;_blank&quot;</span>&gt;</span></span>超链接名<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span></code></pre>
+<p>eg.</p>
+<pre><code class="hljs markdown">[<span class="hljs-string">百度</span>](<span class="hljs-link">https://www.baidu.com</span>)
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;(https://www.baidu.com&quot;</span> <span class="hljs-attr">target</span>=<span class="hljs-string">&quot;_blank&quot;</span>&gt;</span></span>百度<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span></span></code></pre>
+<p><a target="_blank" rel="noopener" href="https://www.baidu.com/">百度</a><br><a href="(https://www.baidu.com" target="_blank">百度</a></p>
+<hr>
+<h1 id="7-代码-块"><a href="#7-代码-块" class="headerlink" title="7. 代码(块)"></a>7. 代码(块)</h1><h3 id="·单行代码"><a href="#·单行代码" class="headerlink" title="·单行代码"></a>·单行代码</h3><p>代码之间分别用一个反引号(英文状态下Tab上面的键包起来<br>eg.<br><code>print(&quot;Hello,world!&quot;)</code></p>
+<h3 id="·代码块"><a href="#·代码块" class="headerlink" title="·代码块"></a>·代码块</h3><p>代码之间用三个反引号包起来<br>eg.</p>
+<pre><code class="hljs isbl"><span class="hljs-variable">funtion</span> <span class="hljs-function"><span class="hljs-title">main</span>()&#123;</span>
+<span class="hljs-function">    <span class="hljs-title">println</span>(<span class="hljs-string">&quot;Hello,world!&quot;</span>)</span>
+&#125;</code></pre>
+<hr>
+<h1 id="8-列表"><a href="#8-列表" class="headerlink" title="8. 列表"></a>8. 列表</h1><h3 id="·无序列表"><a href="#·无序列表" class="headerlink" title="·无序列表"></a>·无序列表</h3><p>用-，+，*都可以作为无序列表，符号与文字之间需要有空格<br>eg.</p>
+<pre><code class="hljs markdown"><span class="hljs-bullet">-</span> 列表
+<span class="hljs-bullet">+</span> 列表
+<span class="hljs-bullet">*</span> 列表</code></pre>
+<ul>
+<li>列表</li>
+</ul>
+<ul>
+<li>列表</li>
+</ul>
+<ul>
+<li>列表</li>
+</ul>
+<h3 id="·有序列表"><a href="#·有序列表" class="headerlink" title="·有序列表"></a>·有序列表</h3><p>数字加点即可，点后需有一个空格<br>eg.</p>
+<pre><code class="hljs angelscript"><span class="hljs-number">1.</span> 列表<span class="hljs-number">1</span>
+<span class="hljs-number">2.</span> 列表<span class="hljs-number">2</span>
+<span class="hljs-number">3.</span> 列表<span class="hljs-number">3</span></code></pre>
+<ol>
+<li>列表1</li>
+<li>列表2</li>
+<li>列表3</li>
+</ol>
+<h3 id="·列表嵌套"><a href="#·列表嵌套" class="headerlink" title="·列表嵌套"></a>·列表嵌套</h3><p>上一级和下一级之间需敲四个空格<br>eg.</p>
+<pre><code class="hljs angelscript">+ 一级无序列表
+    <span class="hljs-number">1.</span> 二级有序列表<span class="hljs-number">1</span>
+    <span class="hljs-number">2.</span> 二级有序列表<span class="hljs-number">2</span>
+    <span class="hljs-number">3.</span> 二级有序列表<span class="hljs-number">3</span>
+
+<span class="hljs-number">1.</span>一级有序列表
+    + 二级无序列表<span class="hljs-number">1</span>
+    + 二级无序列表<span class="hljs-number">2</span>
+    + 二级无序列表<span class="hljs-number">3</span></code></pre>
+<ul>
+<li>一级无序列表<ol>
+<li>二级有序列表1</li>
+<li>二级有序列表2</li>
+<li>二级有序列表3</li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>一级有序列表<ul>
+<li>二级无序列表1</li>
+<li>二级无序列表2</li>
+<li>二级无序列表3</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h1 id="9-表格"><a href="#9-表格" class="headerlink" title="9. 表格"></a>9. 表格</h1><p>语法</p>
+<pre><code class="hljs gherkin">表头|<span class="hljs-string">表头</span>|<span class="hljs-string">表头</span>
+<span class="hljs-string">---</span>|<span class="hljs-string">---</span>|<span class="hljs-string">---</span>
+<span class="hljs-string">内容</span>|<span class="hljs-string">内容</span>|<span class="hljs-string">内容</span>
+<span class="hljs-string">内容</span>|<span class="hljs-string">内容</span>|<span class="hljs-string">内容</span>
+
+<span class="hljs-string">第二行分割表头和内容。</span>
+<span class="hljs-string">- 有一个就行，为了对齐，多加了几个</span>
+<span class="hljs-string">文字默认居左</span>
+<span class="hljs-string">-两边加：表示文字居中</span>
+<span class="hljs-string">-右边加：表示文字居右</span>
+<span class="hljs-string">注：原生的语法两边都要用 </span>|<span class="hljs-string"> 包起来。此处省略</span></code></pre>
+<p>eg.<br>样式|名称<br>-|-<br>1|阿拉伯数字<br>一|中国汉字<br>One|英语</p>
+<blockquote>
+<p>p.s. 不支持？vscode显示正常emmmm</p>
+</blockquote>
+<hr>
+<h1 id="10-流程图"><a href="#10-流程图" class="headerlink" title="10. 流程图"></a>10. 流程图</h1><p>将流程图代码包含在flow和反引号（英文状态下Tap上面的键）之间即可<br>代码</p>
+<pre><code class="hljs livescript">flow
+st=&gt;start: 开始
+op=&gt;operation: My Operation
+cond=&gt;condition: Yes <span class="hljs-keyword">or</span> No?
+e=&gt;end
+st-&gt;op-&gt;cond
+cond<span class="hljs-function"><span class="hljs-params">(<span class="hljs-literal">yes</span>)</span>-&gt;</span>e
+cond<span class="hljs-function"><span class="hljs-params">(<span class="hljs-literal">no</span>)</span>-&gt;</span>op
+&amp;</code></pre>
+<p>eg.</p>
+<p>```flow<br>st=&gt;start: 开始<br>op=&gt;operation: My Operation<br>cond=&gt;condition: Yes or No?<br>e=&gt;end<br>st-&gt;op-&gt;cond<br>cond(yes)-&gt;e<br>cond(no)-&gt;op<br>&amp;</p>
+<blockquote>
+<p>阿这……又一处vscode支持这里不支持的，吐了</p>
+</blockquote>
+
             </article>
             <hr>
             <div>
               <div class="post-metas mb-3">
                 
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E5%9F%BA%E7%A1%80/">基础</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/markdown/">markdown</a>
+                    
+                  </div>
                 
               </div>
               
@@ -237,12 +369,6 @@
                 <div class="post-prevnext row">
                   <div class="post-prev col-6">
                     
-                    
-                      <a href="/2020/08/08/hello-world/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Hello World</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
                     
                   </div>
                   <div class="post-next col-6">
@@ -324,7 +450,7 @@
       order: 'random',
       theme: '#b7daff',
       preload: 'none',
-      audio: [{"name":"circles!","artist":"nekodex","url":"http://music.163.com/song/media/outer/url?id=35416430.mp3","cover":"http://p2.music.126.net/oTmabpH1isXRamg1RyzMhg==/3412884093248256.jpg?param=130y130"},{"name":"夜に駆ける","artist":"YOASOBI","url":"http://music.163.com/song/media/outer/url?id=1409311773.mp3","cover":"http://p1.music.126.net/3xWlqwYmfwRFebeiONUpGg==/109951164546210608.jpg?param=130y130"},{"name":"EXCITE","artist":"三浦大知","url":"http://music.163.com/song/media/outer/url?id=503127102.mp3","cover":"http://p1.music.126.net/pLK3JBhCUUM-KlG3SfiKjQ==/109951163016564364.jpg?param=130y130"},{"name":"you - 2014再ミックス Thanks／you ver. -","artist":"M.Graveyard / 癒月","url":"http://music.163.com/song/media/outer/url?id=29011255.mp3","cover":"http://p2.music.126.net/-raFA2VtphUOAVdEUiC9lg==/6647647301628197.jpg?param=130y130"}]
+      audio: [{"name":"circles!","artist":"nekodex","url":"http://music.163.com/song/media/outer/url?id=35416430.mp3","cover":"http://p2.music.126.net/oTmabpH1isXRamg1RyzMhg==/3412884093248256.jpg?param=130y130"},{"name":"夜に駆ける","artist":"YOASOBI","url":"http://music.163.com/song/media/outer/url?id=1409311773.mp3","cover":"http://p1.music.126.net/3xWlqwYmfwRFebeiONUpGg==/109951164546210608.jpg?param=130y130"},{"name":"EXCITE","artist":"三浦大知","url":"http://music.163.com/song/media/outer/url?id=503127102.mp3","cover":"http://p1.music.126.net/pLK3JBhCUUM-KlG3SfiKjQ==/109951163016564364.jpg?param=130y130"},{"name":"you - 2014再ミックス Thanks／you ver. -","artist":"M.Graveyard / 癒月","url":"http://music.163.com/song/media/outer/url?id=29011255.mp3","cover":"http://p2.music.126.net/-raFA2VtphUOAVdEUiC9lg==/6647647301628197.jpg?param=130y130"},{"name":"Saika","artist":"Rabpit","url":"http://music.163.com/song/media/outer/url?id=32358447.mp3","cover":"http://p1.music.126.net/nxVZ033DIAM7JNHvT-DRMA==/109951163598059944.jpg?param=130y130"},{"name":"Scenario","artist":"Nao‘ymt","url":"http://music.163.com/song/media/outer/url?id=28709056.mp3","cover":"http://p1.music.126.net/_7n0Ksm6FNPSkaY-nbzjdw==/6069304185924186.jpg?param=130y130"},{"name":"VOICES Piano ver. ~featuring 大井健","artist":"Xperia","url":"http://music.163.com/song/media/outer/url?id=491484233.mp3","cover":"http://p2.music.126.net/CJ5txcpsY8ulCd6CQqXg5g==/19007257509607002.jpg?param=130y130"}]
     });
   }
 </script>
@@ -336,10 +462,10 @@
   <footer class="mt-5">
   <div class="text-center py-3">
     <div>
-      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Powered by Hexo</span></a>
       <i class="iconfont icon-love"></i>
       <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
-        <span>Fluid</span></a>
+        <span>Theme Fluid</span></a>
     </div>
     
 
@@ -405,7 +531,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "article title&nbsp;",
+        "markdown初步学习&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 90,
@@ -556,6 +682,16 @@
 
 
 
+<p id="hitokoto" class="text-center">:D 获取中...</p>
+<script>
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      const hitokoto = document.getElementById('hitokoto')
+      hitokoto.innerText = data.hitokoto
+      })
+      .catch(console.error)
+</script>
 
   <!-- 动态标签栏 -->
   <script type="text/javascript"> 

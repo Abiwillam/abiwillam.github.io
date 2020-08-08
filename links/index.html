@@ -52,7 +52,7 @@
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
-       href="/">&nbsp;<strong>Fluid</strong>&nbsp;</a>
+       href="/">&nbsp;<strong>Crchan's Space</strong>&nbsp;</a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -120,18 +120,6 @@
               <a class="nav-link" href="/about/">
                 <i class="iconfont icon-user-fill"></i>
                 关于
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/links/">
-                <i class="iconfont icon-link-fill"></i>
-                友链
               </a>
             </li>
           
@@ -288,7 +276,7 @@
       order: 'random',
       theme: '#b7daff',
       preload: 'none',
-      audio: [{"name":"circles!","artist":"nekodex","url":"http://music.163.com/song/media/outer/url?id=35416430.mp3","cover":"http://p2.music.126.net/oTmabpH1isXRamg1RyzMhg==/3412884093248256.jpg?param=130y130"},{"name":"夜に駆ける","artist":"YOASOBI","url":"http://music.163.com/song/media/outer/url?id=1409311773.mp3","cover":"http://p1.music.126.net/3xWlqwYmfwRFebeiONUpGg==/109951164546210608.jpg?param=130y130"},{"name":"EXCITE","artist":"三浦大知","url":"http://music.163.com/song/media/outer/url?id=503127102.mp3","cover":"http://p1.music.126.net/pLK3JBhCUUM-KlG3SfiKjQ==/109951163016564364.jpg?param=130y130"},{"name":"you - 2014再ミックス Thanks／you ver. -","artist":"M.Graveyard / 癒月","url":"http://music.163.com/song/media/outer/url?id=29011255.mp3","cover":"http://p2.music.126.net/-raFA2VtphUOAVdEUiC9lg==/6647647301628197.jpg?param=130y130"}]
+      audio: [{"name":"circles!","artist":"nekodex","url":"http://music.163.com/song/media/outer/url?id=35416430.mp3","cover":"http://p2.music.126.net/oTmabpH1isXRamg1RyzMhg==/3412884093248256.jpg?param=130y130"},{"name":"夜に駆ける","artist":"YOASOBI","url":"http://music.163.com/song/media/outer/url?id=1409311773.mp3","cover":"http://p1.music.126.net/3xWlqwYmfwRFebeiONUpGg==/109951164546210608.jpg?param=130y130"},{"name":"EXCITE","artist":"三浦大知","url":"http://music.163.com/song/media/outer/url?id=503127102.mp3","cover":"http://p1.music.126.net/pLK3JBhCUUM-KlG3SfiKjQ==/109951163016564364.jpg?param=130y130"},{"name":"you - 2014再ミックス Thanks／you ver. -","artist":"M.Graveyard / 癒月","url":"http://music.163.com/song/media/outer/url?id=29011255.mp3","cover":"http://p2.music.126.net/-raFA2VtphUOAVdEUiC9lg==/6647647301628197.jpg?param=130y130"},{"name":"Saika","artist":"Rabpit","url":"http://music.163.com/song/media/outer/url?id=32358447.mp3","cover":"http://p1.music.126.net/nxVZ033DIAM7JNHvT-DRMA==/109951163598059944.jpg?param=130y130"},{"name":"Scenario","artist":"Nao‘ymt","url":"http://music.163.com/song/media/outer/url?id=28709056.mp3","cover":"http://p1.music.126.net/_7n0Ksm6FNPSkaY-nbzjdw==/6069304185924186.jpg?param=130y130"},{"name":"VOICES Piano ver. ~featuring 大井健","artist":"Xperia","url":"http://music.163.com/song/media/outer/url?id=491484233.mp3","cover":"http://p2.music.126.net/CJ5txcpsY8ulCd6CQqXg5g==/19007257509607002.jpg?param=130y130"}]
     });
   }
 </script>
@@ -300,10 +288,10 @@
   <footer class="mt-5">
   <div class="text-center py-3">
     <div>
-      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Powered by Hexo</span></a>
       <i class="iconfont icon-love"></i>
       <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
-        <span>Fluid</span></a>
+        <span>Theme Fluid</span></a>
     </div>
     
 
@@ -466,6 +454,16 @@
 
 
 
+<p id="hitokoto" class="text-center">:D 获取中...</p>
+<script>
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      const hitokoto = document.getElementById('hitokoto')
+      hitokoto.innerText = data.hitokoto
+      })
+      .catch(console.error)
+</script>
 
   <!-- 动态标签栏 -->
   <script type="text/javascript"> 
